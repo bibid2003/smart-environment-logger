@@ -34,7 +34,7 @@ try:
             send_email_alert("� Motion Detected!",
                              f"Motion was detected at {sensor_data['timestamp']}")
 
-        # Wait before next reading
+        
         time.sleep(5)
 
 except KeyboardInterrupt:

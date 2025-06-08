@@ -20,7 +20,7 @@ HTML_TEMPLATE = """
 <body style="background-color: #f8f9fa;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">🌿 Smart Environment Dashboard</a>
+            <a class="navbar-brand" href="#"> Smart Environment Dashboard</a>
         </div>
     </nav>
 
@@ -41,10 +41,10 @@ HTML_TEMPLATE = """
 
         <div class="card shadow-lg">
             <div class="card-body">
-                <h5 class="card-title text-center mb-4">📈 Sensor Data Visualization</h5>
+                <h5 class="card-title text-center mb-4"> Sensor Data Visualization</h5>
                 {{ graph_html|safe }}
                 <div class="text-center mt-4">
-                    <a href="/download" class="btn btn-primary">⬇️ Download CSV</a>
+                    <a href="/download" class="btn btn-primary">⬇ Download CSV</a>
                 </div>
             </div>
         </div>

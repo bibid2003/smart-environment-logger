@@ -12,6 +12,6 @@ def log_to_csv(file_path, data):
         writer = csv.DictWriter(file, fieldnames=["timestamp", "temperature", "humidity", "motion"])
 
         if not file_exists:
-            writer.writeheader()  # write header if file is new
+            writer.writeheader()  
 
         writer.writerow(data)
